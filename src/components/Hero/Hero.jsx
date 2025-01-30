@@ -16,7 +16,7 @@ const bgImage = {
 }
 
 const Hero = () => {
-    const [sidebar, setSidebar] = React.useState(false)
+    const [sidebar, setSidebar] = React.useState(false);
     return (
         <main style={bgImage}>
             <section className=" relative min-h-[750px] w-full">
@@ -32,7 +32,7 @@ const Hero = () => {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: "spring",
-                                    stiffness: 100,
+                                    stiffness: 100, 
                                     damping: 10,
                                     delay: 1 ,
                                 }}
@@ -105,9 +105,10 @@ const Hero = () => {
                             </motion.div>
                         </div>
                         {/* third div section */}
+                        <div className="hidden lg:block">
                         <motion.div
-                              initial={{ opacity: 0, y: 100 }}
-                                 whileInView={{ opacity: 1, y: 0 }}
+                                initial={{ opacity: 0, y: 100 }}
+                                whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: "spring",
                                     stiffness: 100,
@@ -132,6 +133,7 @@ const Hero = () => {
                         </motion.div>
                         <div></div>
                     </div>
+                    </div>
                 </div>
                 {/* sidebar Menu section */}
                 {
@@ -139,7 +141,7 @@ const Hero = () => {
                         <motion.div
                             initial={{ x: "100" }}
                             whileInView={{ x: 0 }}
-                            className="absolute top-0 right-0 w-[140px] h-full bg-gradient-to-b from-primary/80 to-primaryDark/80 backdrop-blur-sm z-10">
+                            className="absolute top-0 right-0 w-[140px] h-full bg-gradient-to-b from-primary/80 to-primaryDark/80 backdrop-blur-sm z-50">
                     <div className=" w-full h-full flex justify-center items-center">
                         <div className=" flex flex-col justify-center items-center gap-6 text-white">
                         {/* Line */}
