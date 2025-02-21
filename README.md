@@ -1,8 +1,7 @@
-# React + Vite
+#  interior design website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- This interior design website offers a sophisticated and visually appealing collection of room inspirations, featuring a blend of contemporary styles and timeless elegance. With user-friendly navigation, it highlights diverse design concepts, from minimalistic to luxurious, allowing visitors to explore creative solutions and transform their living spaces into personalized havens. Whether you're seeking ideas for a small apartment or a spacious home, this site provides a wealth of inspiration to help bring your interior design dreams to life.
 
-Currently, two official plugins are available:
+#  sceenVideo 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[screen-capture (6).webm](https://github.com/user-attachments/assets/f3d4689e-cce2-4b92-a8fa-e8a70ab5c67b)
